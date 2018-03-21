@@ -30,6 +30,7 @@ import android.annotation.StyleRes;
 import android.app.PendingIntent;
 import android.content.ContentResolver;
 import android.content.Context;
+import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.graphics.Color;
 import android.graphics.Typeface;
@@ -94,6 +95,7 @@ public class KeyguardSliceView extends LinearLayout implements View.OnClickListe
 
     private static final String TAG = "KeyguardSliceView";
     public static final int DEFAULT_ANIM_DURATION = 550;
+    private static final String FONT_FAMILY = "sans-serif";
 
     private final HashMap<View, PendingIntent> mClickActions;
     private final ActivityStarter mActivityStarter;
@@ -385,6 +387,23 @@ public class KeyguardSliceView extends LinearLayout implements View.OnClickListe
 
     public void setViewPadding(int left, int top, int right, int bottom) {
         mRow.setPadding(left,top,right,bottom);
+    }
+
+    private void updateTextFont() {
+        Typeface tf = Typeface.create(FONT_FAMILY, Typeface.NORMAL);
+        mTitle.setTypeface(tf);
+        int childCount = mRow.getChildCount();
+        for (int i = 0; i < childCount; i++) {
+            View v = mRow.getChildAt(i);
+            if (v instanceof TextView) {
+                ((TextView) v).setTypeface(tf);
+            }
+        }
+    }
+
+    @Override
+    public void onConfigChanged(Configuration newConfig) {
+        updateTextFont();
     }
 
     @Override

@@ -20,6 +20,7 @@ import android.app.ActivityManager;
 import android.app.IActivityManager;
 import android.content.Context;
 import android.content.ContentResolver;
+import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.graphics.Color;
 import android.graphics.Typeface;
@@ -62,6 +63,7 @@ public class KeyguardStatusView extends GridLayout implements
     private static final boolean DEBUG = KeyguardConstants.DEBUG;
     private static final String TAG = "KeyguardStatusView";
     private static final int MARQUEE_DELAY_MS = 2000;
+    private static final String FONT_FAMILY = "sans-serif-light";
 
     private final LockPatternUtils mLockPatternUtils;
     private final IActivityManager mIActivityManager;
@@ -295,6 +297,20 @@ public class KeyguardStatusView extends GridLayout implements
                     getResources().getDimensionPixelSize(R.dimen.lock_date_font_size_18));
         }
         loadBottomMargin();
+    }
+
+    @Override
+    public void onConfigChanged(Configuration newConfig) {
+        Typeface tf = Typeface.create(FONT_FAMILY, Typeface.NORMAL);
+        if (mClockView != null) {
+            mClockView.setTypeface(tf);
+        }
+        if (mOwnerInfo != null) {
+            mOwnerInfo.setTypeface(tf);
+        }
+        if (mLogoutView != null) {
+            mLogoutView.setTypeface(tf);
+        }
     }
 
     public void dozeTimeTick() {
