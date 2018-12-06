@@ -250,7 +250,9 @@ public class KeyguardSliceView extends LinearLayout implements View.OnClickListe
             RowContent header = lc.getHeader();
             SliceItem mainTitle = header.getTitleItem();
             CharSequence title = mainTitle != null ? mainTitle.getText() : null;
+            Typeface tf = Typeface.create(FONT_FAMILY, Typeface.NORMAL);
             mTitle.setText(title);
+            mTitle.setTypeface(tf);
             if (header.getPrimaryAction() != null
                     && header.getPrimaryAction().getAction() != null) {
                 mClickActions.put(mTitle, header.getPrimaryAction().getAction());
@@ -740,6 +742,8 @@ public class KeyguardSliceView extends LinearLayout implements View.OnClickListe
         @Override
         public void onDensityOrFontScaleChanged() {
             updatePadding();
+            Typeface tf = Typeface.create(FONT_FAMILY, Typeface.NORMAL);
+            setTypeface(tf);
         }
 
         @Override
