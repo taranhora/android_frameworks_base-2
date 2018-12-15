@@ -263,4 +263,8 @@
 
   <!-- System fonts -->
   <java-symbol type="array" name="config_fontPackages" />
+
+  <!-- System fonts -->
+  <java-symbol type="array" name="config_fontPackages" />
+  <java-symbol type="string" name="fontservice_incompatible_font" />
 </resources>
