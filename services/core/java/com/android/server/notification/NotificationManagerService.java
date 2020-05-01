@@ -6167,10 +6167,6 @@ public class NotificationManagerService extends SystemService {
         if (!isNotificationForCurrentUser(record)) {
             return false;
         }
-        // check current user
-        if (!isNotificationForCurrentUser(record)) {
-            return false;
-        }
 
         return true;
     }
