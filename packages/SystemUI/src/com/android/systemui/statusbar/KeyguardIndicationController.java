@@ -506,7 +506,6 @@ public class KeyguardIndicationController implements StateListener,
     }
 
     public void updateChargingIndication(int type) {
-        if (mChargingIndicationView == null) return;
         mChargingIndication = type;
         switch (mChargingIndication) {
             default:
