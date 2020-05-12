@@ -570,10 +570,7 @@ public final class SQLiteDatabase extends SQLiteClosable {
                             SQLiteSession.TRANSACTION_MODE_IMMEDIATE,
                     transactionListener,
                     getThreadDefaultConnectionFlags(false /*readOnly*/), null);
-        } catch (SQLiteDatabaseCorruptException ex) {
-            onCorruption();
-            throw ex;
-        }finally {
+        } finally {
             releaseReference();
         }
     }
@@ -586,9 +583,6 @@ public final class SQLiteDatabase extends SQLiteClosable {
         acquireReference();
         try {
             getThreadSession().endTransaction(null);
-        } catch (SQLiteDatabaseCorruptException ex) {
-            onCorruption();
-            throw ex;
         } finally {
             releaseReference();
         }
@@ -706,9 +700,6 @@ public final class SQLiteDatabase extends SQLiteClosable {
         acquireReference();
         try {
             return getThreadSession().yieldTransaction(sleepAfterYieldDelay, throwIfUnsafe, null);
-        } catch (SQLiteDatabaseCorruptException ex) {
-            onCorruption();
-            throw ex;
         } finally {
             releaseReference();
         }
@@ -2333,17 +2324,33 @@ public final class SQLiteDatabase extends SQLiteClosable {
     public boolean isDatabaseIntegrityOk() {
         acquireReference();
         try {
-            SQLiteStatement prog = null;
+            List<Pair<String, String>> attachedDbs = null;
             try {
-                prog = compileStatement("PRAGMA integrity_check(1);");
-                String rslt = prog.simpleQueryForString();
-                if (!rslt.equalsIgnoreCase("ok")) {
-                    // integrity_checker failed on main or attached databases
-                    Log.e(TAG, "PRAGMA integrity_check returned: " + rslt);
-                    return false;
+                attachedDbs = getAttachedDbs();
+                if (attachedDbs == null) {
+                    throw new IllegalStateException("databaselist for: " + getPath() + " couldn't " +
+                            "be retrieved. probably because the database is closed");
                 }
-            } finally {
-                if (prog != null) prog.close();
+            } catch (SQLiteException e) {
+                // can't get attachedDb list. do integrity check on the main database
+                attachedDbs = new ArrayList<Pair<String, String>>();
+                attachedDbs.add(new Pair<String, String>("main", getPath()));
+            }
+
+            for (int i = 0; i < attachedDbs.size(); i++) {
+                Pair<String, String> p = attachedDbs.get(i);
+                SQLiteStatement prog = null;
+                try {
+                    prog = compileStatement("PRAGMA " + p.first + ".integrity_check(1);");
+                    String rslt = prog.simpleQueryForString();
+                    if (!rslt.equalsIgnoreCase("ok")) {
+                        // integrity_checker failed on main or attached databases
+                        Log.e(TAG, "PRAGMA integrity_check on " + p.second + " returned: " + rslt);
+                        return false;
+                    }
+                } finally {
+                    if (prog != null) prog.close();
+                }
             }
         } finally {
             releaseReference();

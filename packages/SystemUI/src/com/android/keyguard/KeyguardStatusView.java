@@ -302,9 +302,6 @@ public class KeyguardStatusView extends GridLayout implements
     @Override
     public void onConfigChanged(Configuration newConfig) {
         Typeface tf = Typeface.create(FONT_FAMILY, Typeface.NORMAL);
-        if (mClockView != null) {
-            mClockView.setTypeface(tf);
-        }
         if (mOwnerInfo != null) {
             mOwnerInfo.setTypeface(tf);
         }
