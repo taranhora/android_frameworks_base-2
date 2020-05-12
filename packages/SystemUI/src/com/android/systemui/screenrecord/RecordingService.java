@@ -76,8 +76,6 @@ import java.nio.file.Files;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import static android.os.Environment.DIRECTORY_MOVIES;
-
 /**
  * A service which records the device screen and optionally microphone input.
  */
