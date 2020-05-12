@@ -7,12 +7,10 @@
     file for information about system fonts, do it at your own risk. Your
     application will almost certainly break with the next major Android
     release.
-
     In this file, all fonts without names are added to the default list.
     Fonts are chosen based on a match: full BCP-47 language tag including
     script, then just language, and finally order (the first font containing
     the glyph).
-
     Order of appearance is also the tiebreaker for weight matching. This is
     the reason why the 900 weights of Roboto precede the 700 weights - we
     prefer the former when an 800 weight is requested. Since bold spans
@@ -65,7 +63,6 @@
         <font weight="400" style="italic">NotoSerif-Italic.ttf</font>
         <font weight="700" style="italic">NotoSerif-BoldItalic.ttf</font>
     </family>
-    <alias name="serif-bold" to="serif" weight="700" />
     <alias name="times" to="serif" />
     <alias name="times new roman" to="serif" />
     <alias name="palatino" to="serif" />
@@ -74,105 +71,6 @@
     <alias name="goudy" to="serif" />
     <alias name="fantasy" to="serif" />
     <alias name="ITC Stone Serif" to="serif" />
-
-    <family name="comicsans">
-        <font weight="400" style="normal">Comic_Sans.ttf</font>
-    </family>
-    <alias name="comicsans-semi-bold" to="comicsans" weight="600" />
-    <alias name="comicsans-bold" to="comicsans" weight="700" />
-    <alias name="times" to="comicsans" />
-    <alias name="times new roman" to="comicsans" />
-    <alias name="palatino" to="comicsans" />
-    <alias name="georgia" to="comicsans" />
-    <alias name="baskerville" to="comicsans" />
-    <alias name="goudy" to="comicsans" />
-    <alias name="fantasy" to="comicsans" />
-    <alias name="ITC Stone Serif" to="comicsans" />
-
-    <family name="googlesans">
-        <font weight="400" style="normal">GoogleSans-Regular.ttf</font>
-        <font weight="400" style="italic">GoogleSans-Italic.ttf</font>
-        <font weight="500" style="normal">GoogleSans-Medium.ttf</font>
-        <font weight="500" style="italic">GoogleSans-MediumItalic.ttf</font>
-        <font weight="700" style="normal">GoogleSans-Bold.ttf</font>
-        <font weight="700" style="italic">GoogleSans-BoldItalic.ttf</font>
-    </family>
-
-    <alias name="googlesans-medium" to="googlesans" weight="500" />
-    <alias name="googlesans-semi-bold" to="googlesans" weight="600" />
-    <alias name="googlesans-bold" to="googlesans" weight="700" />
-    <alias name="times" to="googlesans" />
-    <alias name="times new roman" to="googlesans" />
-    <alias name="palatino" to="googlesans" />
-    <alias name="georgia" to="googlesans" />
-    <alias name="baskerville" to="googlesans" />
-    <alias name="goudy" to="googlesans" />
-    <alias name="fantasy" to="googlesans" />
-    <alias name="ITC Stone Serif" to="googlesans" />
-
-    <family name="comfortaa">
-        <font weight="400" style="normal">Comfortaa.ttf</font>
-    </family>
-
-    <alias name="comfortaa-medium" to="comfortaa" weight="500" />
-    <alias name="comfortaa-semi-bold" to="comfortaa" weight="600" />
-    <alias name="comfortaa-bold" to="comfortaa" weight="700" />
-    <alias name="times" to="comfortaa" />
-    <alias name="times new roman" to="comfortaa" />
-    <alias name="palatino" to="comfortaa" />
-    <alias name="georgia" to="comfortaa" />
-    <alias name="baskerville" to="comfortaa" />
-    <alias name="goudy" to="comfortaa" />
-    <alias name="fantasy" to="comfortaa" />
-    <alias name="ITC Stone Serif" to="comfortaa" />
-
-    <family name="exotwo">
-        <font weight="400" style="normal">Exotwo.ttf</font>
-    </family>
-
-    <alias name="exotwo-medium" to="exotwo" weight="500" />
-    <alias name="exotwo-semi-bold" to="exotwo" weight="600" />
-    <alias name="exotwo-bold" to="exotwo" weight="700" />
-    <alias name="times" to="exotwo" />
-    <alias name="times new roman" to="exotwo" />
-    <alias name="palatino" to="exotwo" />
-    <alias name="georgia" to="exotwo" />
-    <alias name="baskerville" to="exotwo" />
-    <alias name="goudy" to="exotwo" />
-    <alias name="fantasy" to="exotwo" />
-    <alias name="ITC Stone Serif" to="exotwo" />
-
-    <family name="storopia">
-        <font weight="400" style="normal">Storopia.ttf</font>
-    </family>
-
-    <alias name="storopia-medium" to="storopia" weight="500" />
-    <alias name="storopia-semi-bold" to="storopia" weight="600" />
-    <alias name="storopia-bold" to="storopia" weight="700" />
-    <alias name="times" to="storopia" />
-    <alias name="times new roman" to="storopia" />
-    <alias name="palatino" to="storopia" />
-    <alias name="georgia" to="storopia" />
-    <alias name="baskerville" to="storopia" />
-    <alias name="goudy" to="storopia" />
-    <alias name="fantasy" to="storopia" />
-    <alias name="ITC Stone Serif" to="storopia" />
-
-    <family name="ubuntu">
-        <font weight="400" style="normal">Ubuntu.ttf</font>
-    </family>
-
-    <alias name="ubuntu-medium" to="ubuntu" weight="500" />
-    <alias name="ubuntu-semi-bold" to="ubuntu" weight="600" />
-    <alias name="ubuntu-bold" to="ubuntu" weight="700" />
-    <alias name="times" to="ubuntu" />
-    <alias name="times new roman" to="ubuntu" />
-    <alias name="palatino" to="ubuntu" />
-    <alias name="georgia" to="ubuntu" />
-    <alias name="baskerville" to="ubuntu" />
-    <alias name="goudy" to="ubuntu" />
-    <alias name="fantasy" to="ubuntu" />
-    <alias name="ITC Stone Serif" to="ubuntu" />
 
     <family name="monospace">
         <font weight="400" style="normal">DroidSansMono.ttf</font>
@@ -208,77 +106,6 @@
         <font weight="700" style="italic">SourceSansPro-BoldItalic.ttf</font>
     </family>
     <alias name="source-sans-pro-semi-bold" to="source-sans-pro" weight="600" />
-
-    <!-- Lockscreen Fonts -->
-    <family name="gobold-light-sys">
-        <font weight="300" style="normal">GoboldThinLight.ttf</font>
-    </family>
-    <family name="roadrage-sys">
-        <font weight="300" style="normal">RoadRage-Regular.ttf</font>
-    </family>
-    <family name="snowstorm-sys">
-        <font weight="300" style="normal">Snowstorm-Regular.ttf</font>
-    </family>
-    <family name="googlesans-sys">
-        <font weight="300" style="normal">GoogleSans-Medium.ttf</font>
-    </family>
-    <family name="neoneon-sys">
-        <font weight="300" style="normal">Neoneon-Regular.ttf</font>
-    </family>
-    <family name="themeable-sys">
-        <font weight="300" style="normal">ThemeableFont-Regular.ttf</font>
-    </family>
-    <family name="samsung-sys">
-        <font weight="300" style="normal">Shamshung.ttf</font>
-    </family>
-    <family name="mexcellent-sys">
-        <font weight="300" style="normal">Mexcellent-Regular.ttf</font>
-    </family>
-    <family name="burnstown-sys">
-        <font weight="300" style="normal">Burnstown-Regular.ttf</font>
-    </family>
-    <family name="dumbledor-sys">
-        <font weight="300" style="normal">Dumbledor-Regular.ttf</font>
-    </family>
-    <family name="phantombold-sys">
-        <font weight="300" style="normal">PhantomBold-Regular.ttf</font>
-    </family>
-    <family name="sourcesanspro-sys">
-        <font weight="400" style="normal">SourceSansPro-Regular.ttf</font>
-    </family>
-    <family name="circularstd-sys">
-        <font weight="400" style="normal">CircularStd.ttf</font>
-    </family>
-    <family name="oneplusslate-sys">
-        <font weight="400" style="normal">SlateForOnePlus-Regular.ttf</font>
-    </family>
-    <family name="aclonica-sys">
-        <font weight="300" style="normal">Aclonica.ttf</font>
-    </family>
-    <family name="amarante-sys">
-        <font weight="300" style="normal">Amarante.ttf</font>
-    </family>
-    <family name="bariol-sys">
-        <font weight="300" style="normal">Bariol-Regular.ttf</font>
-    </family>
-    <family name="cagliostro-sys">
-        <font weight="300" style="normal">Cagliostro-Regular.ttf</font>
-    </family>
-    <family name="coolstory-sys">
-        <font weight="300" style="normal">Coolstory-Regular.ttf</font>
-    </family>
-    <family name="lgsmartgothic-sys">
-        <font weight="300" style="normal">LGSmartGothic.ttf</font>
-    </family>
-    <family name="rosemary-sys">
-        <font weight="300" style="normal">Rosemary-Regular.ttf</font>
-    </family>
-    <family name="sonysketch-sys">
-        <font weight="300" style="normal">SonySketch.ttf</font>
-    </family>
-    <family name="surfer-sys">
-        <font weight="300" style="normal">Surfer.ttf</font>
-    </family>
 
     <!-- fallback fonts -->
     <family lang="und-Arab" variant="elegant">

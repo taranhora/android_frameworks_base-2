@@ -147,13 +147,13 @@ public class CustomTextClock extends TextView {
 
     private int getLockClockFont() {
         return Settings.System.getInt(mContext.getContentResolver(),
-               	Settings.System.CUSTOM_TEXT_CLOCK_FONTS, 32);
+               	Settings.System.CUSTOM_TEXT_CLOCK_FONTS, 28);
     }
 
     private void refreshLockFont() {
         final Resources res = getContext().getResources();
         boolean isPrimary = UserHandle.getCallingUserId() == UserHandle.USER_OWNER;
-        int lockClockFont = isPrimary ? getLockClockFont() : 29;
+        int lockClockFont = isPrimary ? getLockClockFont() : 28;
 
         switch (lockClockFont) {
             case 0:
@@ -241,7 +241,7 @@ public class CustomTextClock extends TextView {
                 setTypeface(Typeface.create("snowstorm-sys", Typeface.NORMAL));
                 break;
             case 28:
-                setTypeface(Typeface.create("googlesans-sys", Typeface.NORMAL));
+                setTypeface(Typeface.create("productsans-sys", Typeface.NORMAL));
                 break;
             case 29:
                 setTypeface(Typeface.create("neoneon-sys", Typeface.NORMAL));
@@ -265,40 +265,70 @@ public class CustomTextClock extends TextView {
                 setTypeface(Typeface.create("phantombold-sys", Typeface.NORMAL));
                 break;
             case 36:
-                setTypeface(Typeface.create("sourcesanspro-sys", Typeface.NORMAL));
+                setTypeface(Typeface.create("abelreg", Typeface.NORMAL));
                 break;
             case 37:
-                setTypeface(Typeface.create("circularstd-sys", Typeface.NORMAL));
+                setTypeface(Typeface.create("adventpro", Typeface.NORMAL));
                 break;
             case 38:
-                setTypeface(Typeface.create("oneplusslate-sys", Typeface.NORMAL));
+                setTypeface(Typeface.create("alien-league", Typeface.NORMAL));
                 break;
             case 39:
-                setTypeface(Typeface.create("aclonica-sys", Typeface.NORMAL));
+                setTypeface(Typeface.create("bignoodle-italic", Typeface.NORMAL));
                 break;
             case 40:
-                setTypeface(Typeface.create("amarante-sys", Typeface.NORMAL));
+                setTypeface(Typeface.create("biko", Typeface.NORMAL));
                 break;
             case 41:
-                setTypeface(Typeface.create("bariol-sys", Typeface.NORMAL));
+                setTypeface(Typeface.create("blern", Typeface.NORMAL));
                 break;
             case 42:
-                setTypeface(Typeface.create("cagliostro-sys", Typeface.NORMAL));
+                setTypeface(Typeface.create("cherryswash", Typeface.NORMAL));
                 break;
             case 43:
-                setTypeface(Typeface.create("coolstory-sys", Typeface.NORMAL));
+                setTypeface(Typeface.create("codystar", Typeface.NORMAL));
                 break;
             case 44:
-                setTypeface(Typeface.create("lgsmartgothic-sys", Typeface.NORMAL));
+                setTypeface(Typeface.create("ginora-sans", Typeface.NORMAL));
                 break;
             case 45:
-                setTypeface(Typeface.create("rosemary-sys", Typeface.NORMAL));
+                setTypeface(Typeface.create("googlesans-sys", Typeface.NORMAL));
                 break;
             case 46:
-                setTypeface(Typeface.create("sonysketch-sys", Typeface.NORMAL));
+                setTypeface(Typeface.create("inkferno", Typeface.NORMAL));
                 break;
             case 47:
-                setTypeface(Typeface.create("surfer-sys", Typeface.NORMAL));
+                setTypeface(Typeface.create("jura-reg", Typeface.NORMAL));
+                break;
+            case 48:
+                setTypeface(Typeface.create("kellyslab", Typeface.NORMAL));
+                break;
+            case 49:
+                setTypeface(Typeface.create("metropolis1920", Typeface.NORMAL));
+                break;
+            case 50:
+                setTypeface(Typeface.create("pompiere", Typeface.NORMAL));
+                break;
+            case 51:
+                setTypeface(Typeface.create("reemkufi", Typeface.NORMAL));
+                break;
+            case 52:
+                setTypeface(Typeface.create("riviera", Typeface.NORMAL));
+                break;
+            case 53:
+                setTypeface(Typeface.create("sedgwick-ave", Typeface.NORMAL));
+                break;
+            case 54:
+                setTypeface(Typeface.create("source-sans-pro", Typeface.NORMAL));
+                break;
+            case 55:
+                setTypeface(Typeface.create("unionfont", Typeface.NORMAL));
+                break;
+            case 56:
+                setTypeface(Typeface.create("vibur", Typeface.NORMAL));
+                break;
+            case 57:
+                setTypeface(Typeface.create("voltaire", Typeface.NORMAL));
                 break;
         }
     }

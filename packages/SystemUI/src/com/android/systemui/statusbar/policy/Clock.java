@@ -145,26 +145,41 @@ public class Clock extends TextView implements DemoMode, CommandQueue.Callbacks,
     public static final int GOBOLD_LIGHT = 25;
     public static final int ROADRAGE = 26;
     public static final int SNOWSTORM = 27;
-    public static final int GOOGLESANS = 28;
+    public static final int PRODUCTSANS = 28;
     public static final int NEONEON = 29;
     public static final int THEMEABLE = 30;
-    public static final int SHAMSHUNG = 31;
+    public static final int SAMSUNG = 31;
     public static final int MEXCELLENT = 32;
     public static final int BURNSTOWN = 33;
     public static final int DUMBLEDOR = 34;
     public static final int PHANTOMBOLD = 35;
-    public static final int SOURCESANSPRO = 36;
-    public static final int CIRCULARSTD = 37;
-    public static final int ONEPLUSSLATE = 38;
-    public static final int ACLONICA = 39;
-    public static final int AMARANTE = 40;
-    public static final int BARIOL = 41;
-    public static final int CAGLIOSTRO = 42;
-    public static final int COOLSTORY = 43;
-    public static final int LGSMARTGOTHIC = 44;
-    public static final int ROSEMARY = 45;
-    public static final int SONYSKETCH = 46;
-    public static final int SURFER = 47;
+    public static final int FONT_ABELREG = 36;
+    public static final int FONT_ADAMCG = 37;
+    public static final int FONT_ADVENTPRO = 38;
+    public static final int FONT_ALIEN = 39;
+    public static final int FONT_ARCHIVONAR = 40;
+    public static final int FONT_AUTOURONE = 41;
+    public static final int FONT_BADSCRIPT = 42;
+    public static final int FONT_BIGNOODLE = 43;
+    public static final int FONT_BIKO = 44;
+    public static final int FONT_CHERRYSWASH = 45;
+    public static final int FONT_GINORA = 46;
+    public static final int FONT_GOOGLESANS = 47;
+    public static final int FONT_IBMPLEX = 48;
+    public static final int FONT_INKFERNO = 49;
+    public static final int FONT_INSTRUCTION = 50;
+    public static final int FONT_JACK = 51;
+    public static final int FONT_KELLYSLAB = 52;
+    public static final int FONT_MONAD = 53;
+    public static final int FONT_NOIR = 54;
+    public static final int FONT_OUTRUN = 55;
+    public static final int FONT_POMPIERE = 56;
+    public static final int FONT_REEMKUFI = 57;
+    public static final int FONT_RIVIERA = 58;
+    public static final int FONT_SOURCESANSPRO = 59;
+    public static final int FONT_OUTBOX = 60;
+    public static final int FONT_VIBUR = 61;
+    public static final int FONT_VOLTAIRE = 62;
 
     public int DEFAULT_CLOCK_SIZE = 14;
     public int DEFAULT_CLOCK_COLOR = 0xffffffff;
@@ -913,8 +928,8 @@ public class Clock extends TextView implements DemoMode, CommandQueue.Callbacks,
             case SNOWSTORM:
                 setTypeface(Typeface.create("snowstorm-sys", Typeface.NORMAL));
                 break;
-            case GOOGLESANS:
-                setTypeface(Typeface.create("googlesans-sys", Typeface.NORMAL));
+            case PRODUCTSANS:
+                setTypeface(Typeface.create("productsans-sys", Typeface.NORMAL));
                 break;
             case NEONEON:
                 setTypeface(Typeface.create("neoneon-sys", Typeface.NORMAL));
@@ -922,7 +937,7 @@ public class Clock extends TextView implements DemoMode, CommandQueue.Callbacks,
             case THEMEABLE:
                 setTypeface(Typeface.create("themeable-sys", Typeface.NORMAL));
                 break;
-            case SHAMSHUNG:
+            case SAMSUNG:
                 setTypeface(Typeface.create("samsung-sys", Typeface.NORMAL));
                 break;
             case MEXCELLENT:
@@ -934,44 +949,89 @@ public class Clock extends TextView implements DemoMode, CommandQueue.Callbacks,
             case DUMBLEDOR:
                 setTypeface(Typeface.create("dumbledor-sys", Typeface.NORMAL));
                 break;
-            case PHANTOMBOLD:
+	    case PHANTOMBOLD:
                 setTypeface(Typeface.create("phantombold-sys", Typeface.NORMAL));
                 break;
-            case SOURCESANSPRO:
-                setTypeface(Typeface.create("sourcesanspro-sys", Typeface.NORMAL));
+            case FONT_ABELREG:
+                setTypeface(Typeface.create("abelreg",Typeface.NORMAL));
                 break;
-            case CIRCULARSTD:
-                setTypeface(Typeface.create("circularstd-sys", Typeface.NORMAL));
+            case FONT_ADAMCG:
+                setTypeface(Typeface.create("adamcg-pro", Typeface.NORMAL));
                 break;
-            case ONEPLUSSLATE:
-                setTypeface(Typeface.create("oneplusslate-sys", Typeface.NORMAL));
+            case FONT_ADVENTPRO:
+                setTypeface(Typeface.create("adventpro", Typeface.NORMAL));
                 break;
-            case ACLONICA:
-                setTypeface(Typeface.create("aclonica-sys", Typeface.NORMAL));
+            case FONT_ALIEN:
+                setTypeface(Typeface.create("alien-league", Typeface.NORMAL));
                 break;
-            case AMARANTE:
-                setTypeface(Typeface.create("amarante-sys", Typeface.NORMAL));
+            case FONT_ARCHIVONAR:
+                setTypeface(Typeface.create("archivonar", Typeface.NORMAL));
                 break;
-            case BARIOL:
-                setTypeface(Typeface.create("bariol-sys", Typeface.NORMAL));
+            case FONT_AUTOURONE:
+                setTypeface(Typeface.create("autourone", Typeface.NORMAL));
                 break;
-            case CAGLIOSTRO:
-                setTypeface(Typeface.create("cagliostro-sys", Typeface.NORMAL));
+            case FONT_BADSCRIPT:
+                setTypeface(Typeface.create("badscript", Typeface.NORMAL));
                 break;
-            case COOLSTORY:
-                setTypeface(Typeface.create("coolstory-sys", Typeface.NORMAL));
+            case FONT_BIGNOODLE:
+                setTypeface(Typeface.create("bignoodle-regular", Typeface.NORMAL));
                 break;
-            case LGSMARTGOTHIC:
-                setTypeface(Typeface.create("lgsmartgothic-sys", Typeface.NORMAL));
+            case FONT_BIKO:
+                setTypeface(Typeface.create("biko", Typeface.NORMAL));
                 break;
-            case ROSEMARY:
-                setTypeface(Typeface.create("rosemary-sys", Typeface.NORMAL));
+            case FONT_CHERRYSWASH:
+                setTypeface(Typeface.create("cherryswash", Typeface.NORMAL));
                 break;
-            case SONYSKETCH:
-                setTypeface(Typeface.create("sonysketch-sys", Typeface.NORMAL));
+            case FONT_GINORA:
+                setTypeface(Typeface.create("ginora-sans", Typeface.NORMAL));
                 break;
-            case SURFER:
-                setTypeface(Typeface.create("surfer-sys", Typeface.NORMAL));
+            case FONT_GOOGLESANS:
+                setTypeface(Typeface.create("google-sans-medium", Typeface.NORMAL));
+                break;
+            case FONT_IBMPLEX:
+                setTypeface(Typeface.create("ibmplex-mono", Typeface.NORMAL));
+                break;
+            case FONT_INKFERNO:
+                setTypeface(Typeface.create("inkferno", Typeface.NORMAL));
+                break;
+            case FONT_INSTRUCTION:
+                setTypeface(Typeface.create("instruction", Typeface.NORMAL));
+                break;
+            case FONT_JACK:
+                setTypeface(Typeface.create("jack-lane", Typeface.NORMAL));
+                break;
+            case FONT_KELLYSLAB:
+                setTypeface(Typeface.create("kellyslab", Typeface.NORMAL));
+                break;
+            case FONT_MONAD:
+                setTypeface(Typeface.create("monad", Typeface.NORMAL));
+                break;
+            case FONT_NOIR:
+                setTypeface(Typeface.create("noir", Typeface.NORMAL));
+                break;
+            case FONT_OUTRUN:
+                setTypeface(Typeface.create("outrun-future", Typeface.NORMAL));
+                break;
+            case FONT_POMPIERE:
+                setTypeface(Typeface.create("pompiere", Typeface.NORMAL));
+                break;
+            case FONT_REEMKUFI:
+                setTypeface(Typeface.create("reemkufi", Typeface.NORMAL));
+                break;
+            case FONT_RIVIERA:
+                setTypeface(Typeface.create("riviera", Typeface.NORMAL));
+                break;
+            case FONT_SOURCESANSPRO:
+                setTypeface(Typeface.create("source-sans-pro", Typeface.NORMAL));
+                break;
+            case FONT_OUTBOX:
+                setTypeface(Typeface.create("the-outbox", Typeface.NORMAL));
+                break;
+            case FONT_VIBUR:
+                setTypeface(Typeface.create("vibur", Typeface.NORMAL));
+                break;
+            case FONT_VOLTAIRE:
+                setTypeface(Typeface.create("voltaire", Typeface.NORMAL));
                 break;
         }
     }
