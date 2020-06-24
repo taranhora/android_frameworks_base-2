@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Label for area where tiles can be added to the qs panel -->
+    <string name="drag_or_tap_to_add_tiles">Hold &amp; drag or tap to add tiles</string>
+    <!-- Label for header of customize QS -->
+    <string name="drag_or_tap_to_rearrange_tiles">Hold &amp; drag to rearrange or tap to remove</string>
+    <!-- Screen record -->
+    <string name="screenrecord_dialog_title">Start recording?</string>
+    <string name="screenrecord_dialog_summary">While recording, Android system can capture any sensitive information that\'s visible on your screen or played on your device. This includes passwords, payment info, photos, messages, and audio.</string>
+    <string name="screenrecord_dialog_start">Start</string>
+    <string name="screenrecord_dialog_cancel">Cancel</string>
+    <string name="screenrecord_audio_recording_title">Audio source</string>
+    <string name="screenrecord_audio_recording_internal">Internal</string>
+    <string name="screenrecord_audio_recording_microphone">Microphone</string>
+    <string name="screenrecord_audio_recording_off">Disabled</string>
+    <string name="screenrecord_taps_title">Show touches on screen</string>
+    <string name="screenrecord_stopdot_title">Show stop dot</string>
+    <string name="screenrecord_video_bitrate_title">Video bitrate</string>
+    <!-- Power menu item for taking a screenshot [CHAR LIMIT=20]-->
+    <string name="global_action_screenshot_cust">Screenshot</string>
+    <string name="global_action_screenrecord">Screen record</string>
+    <!-- Advanced Reboot menu -->
+    <string name="global_action_restart_advanced">Advanced</string>
+    <string name="global_action_restart_recovery">Recovery</string>
+    <string name="global_action_restart_bootloader">Bootloader</string>
+    <string name="global_action_restart_ui">SystemUI</string>
+    <!-- Tuner -->
+    <string name="statusbar_items_title">Statusbar icon</string>
+    <string name="quick_settings_vpn_title">VPN</string>
+    <!-- Sync Tile -->
+    <string name="quick_settings_sync_label">Sync</string>
+    <string name="accessibility_quick_settings_sync_off">Sync off</string>
+    <string name="accessibility_quick_settings_sync_on">Sync on</string>
+    <string name="accessibility_quick_settings_sync_changed_off">Sync turned off</string>
+    <string name="accessibility_quick_settings_sync_changed_on">Sync turned on</string>
+    <!-- Ambient display QS tile -->
+    <string name="quick_settings_ambient_display_label">Ambient display</string>
+    <string name="accessibility_quick_settings_ambient_display_off">Ambient display off.</string>
+    <string name="accessibility_quick_settings_ambient_display_on">Ambient display on.</string>
+    <string name="accessibility_quick_settings_ambient_display_changed_off">Ambient display turned off.</string>
+    <string name="accessibility_quick_settings_ambient_display_changed_on">Ambient display turned on.</string>
+    <!-- Sound QS Tile -->
+    <string name="quick_settings_sound_label">Sound</string>
+    <string name="quick_settings_sound_ring">Ring</string>
+    <string name="quick_settings_sound_vibrate">Vibrate</string>
+    <string name="quick_settings_sound_dnd">Do not disturb</string>
+    <!-- Reboot/Recovery QS Tile -->
+    <string name="quick_settings_reboot_label">Reboot</string>
+    <string name="quick_settings_reboot_recovery_label">Recovery</string>
+    <string name="quick_settings_poweroff_label">Power off</string>
+    <!-- Heads Up QS Tile -->
+    <string name="quick_settings_heads_up_label">Heads up</string>
+    <string name="accessibility_quick_settings_heads_up_off">Heads up off.</string>
+    <string name="accessibility_quick_settings_heads_up_on">Heads up on.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_off">Heads up turned off.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_on">Heads up turned on.</string>
+    <!-- Screenshot QS tile -->
+    <string name="quick_settings_screenshot_label">Screenshot</string>
+    <string name="quick_settings_region_screenshot_label">Partial screenshot</string>
+    <!-- Advance location quick setting tile -->
+    <string name="quick_settings_secondary_location_off"></string>
+    <string name="quick_settings_location_secondary_battery_saving">Battery Saving</string>
+    <string name="accessibility_quick_settings_location_battery_saving">Location reporting: battery saving mode.</string>
+    <string name="quick_settings_location_secondary_gps_only">Sensors Only</string>
+    <string name="accessibility_quick_settings_location_gps_only">Pelaporan lokasi: hanya sensor.</string>
+    <string name="quick_settings_location_secondary_high_accuracy">High Accuracy</string>
+    <string name="accessibility_quick_settings_location_high_accuracy">Location reporting: high accuracy mode.</string>
+    <!-- accessibility label for button to open running apps prefscreen [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_running_services">Open Running Services screen.</string>
+    <!-- CPUInfo tile -->
+    <string name="quick_settings_cpuinfo_label">CPU Info</string>
+    <string name="accessibility_quick_settings_cpuinfo_off">CPU Info off</string>
+    <string name="accessibility_quick_settings_cpuinfo_on">CPU Info on</string>
+    <!--Screenrecord Tile-->
+    <string name="screenrecorder_title_tile">Screenrecord</string>
+    <!-- Heads up snooze toast -->
+    <string name="heads_up_snooze_message_one_minute"><xliff:g id="string">%s</xliff:g> - Peeking notification are snoozing for 1 minute.</string>
+    <string name="heads_up_snooze_message"><xliff:g id="string">%s</xliff:g> - Peeking notifications are snoozing for <xliff:g id="number">%d</xliff:g> minutes.</string>
+    <!-- Kill button in notification guts -->
+    <string name="force_stop_dlg_title">Force stop?</string>
+    <string name="force_stop_dlg_text">If you force stop an app, it may misbehave.</string>
+    <string name="dlg_ok">@android:string/ok</string>
+    <string name="dlg_cancel">@android:string/cancel</string>
+    <string name="guts_force_close_app">Close App</string>
+    <!-- Lockscreen Tuner -->
+    <string name="lockscreen_default">Default</string>
+    <string name="lockscreen_hidden">None</string>
+    <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
+    <string name="custom_hint">Swipe from icon to launch</string>
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">Switch data card</string>
+    <string name="qs_data_switch_changed_1">Using SIM 1 for Mobile data</string>
+    <string name="qs_data_switch_changed_2">Using SIM 2 for Mobile data</string>
+    <!-- Navbar -->
+    <string name="systemui_tuner_navbar_title">Layout</string>
+    <string name="navigation_bar_format_title">Navbar format</string>
+    <string name="navigation_bar_accessibility_dpad_left">Cursor left</string>
+    <string name="navigation_bar_accessibility_dpad_right">Cursor right</string>
+    <!-- Theme tile -->
+    <string name="system_theme_style_title">Theme</string>
+    <string name="system_theme_style_light">Light</string>
+    <string name="system_theme_style_dark">Google dark</string>
+    <string name="system_theme_style_pitchblack">Pitch black</string>
+    <string name="system_theme_style_solarizeddark">Solarized dark</string>
+    <string name="system_theme_style_chocox">Choco X</string>
+    <string name="system_theme_style_bakedgreen">Baked green</string>
+    <string name="system_theme_style_darkgrey">Dark grey</string>
+    <string name="system_theme_style_materialocean">Material ocean</string>
+    <string name="system_theme_style_corvusclear">Corvus clear</string>
+    <string name="quick_settings_theme_tile_style_detail_title">Select theme</string>
+    <!-- Gaming mode -->
+    <string name="gaming_mode_not_enabled">Gaming mode is disabled in settings</string>
+    <string name="quick_settings_gaming_mode_label">Gaming mode</string>
+    <!-- Content description of the Gaming mode tile in quick settings when disabled (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_gaming_mode_disabled">Gaming mode turned off.</string>
+    <!-- Content description of the Gaming mode tile in quick settings when enabled (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_gaming_mode_enabled">Gaming mode turned on.</string>
+    <!-- Immersive tile -->
+    <string name="quick_settings_immersive_tile">Immersive mode</string>
+    <string name="quick_settings_immersive_tile_statusbar">Immersive statusbar</string>
+    <string name="quick_settings_immersive_tile_navbar">Immersive navbar</string>
+    <string name="quick_settings_immersive_tile_full">Immersive full</string>
+    <!-- Caffeine tile -->
+    <string name="quick_settings_caffeine_label">Caffeine</string>
+    <string name="quick_settings_caffeine_label_off">Off</string>
+    <string name="accessibility_quick_settings_caffeine_off">Caffeine off</string>
+    <string name="accessibility_quick_settings_caffeine_on">Caffeine on</string>
+    <!-- Screenshot toast -->
+    <string name="delete_screenshot_toast">Screenshot deleted</string>
+    <!-- Screen pinning -->
+    <string name="screen_pinning_description_custom">This keeps it in view until you unpin. Touch &amp; hold Back to unpin.</string>
+    <string name="screen_pinning_description_recents_invisible_custom">This keeps it in view until you unpin. Touch &amp; hold Back to unpin.</string>
+    <string name="screen_pinning_description_accessible_custom">This keeps it in view until you unpin. Touch &amp; hold Back to unpin.</string>
+    <string name="screen_pinning_description_recents_invisible_accessible_custom">This keeps it in view until you unpin. Touch &amp; hold Back to unpin.</string>
+    <string name="screen_pinning_toast_custom">To unpin this screen, touch &amp; hold Back button</string>
+    <string name="screen_pinning_toast_recents_invisible_custom">To unpin this screen, touch &amp; hold Back button</string>
+    <!-- Long swipe gesture actions -->
+    <string name="app_picker_dialog_title">Select an app</string>
+    <string name="recents_app_killed">App killed</string>
+    <string name="nope_cant_kill">Launcher cannot be killed</string>
+    <!-- ADB over Network tile -->
+    <string name="quick_settings_adb_network">ADB over Network</string>
+    <string name="quick_settings_network_adb_enabled_label">ADB over Network</string>
+    <string name="quick_settings_network_adb_disabled_label">ADB over Network</string>
+    <string name="adb_network_forced_tcp_warn">ADB network forced enabled on port: <xliff:g id="port">%1$s</xliff:g></string>
+    <!-- HW Keys Tile -->
+    <string name="accessibility_quick_settings_hwkeys_on">HW keys on</string>
+    <string name="accessibility_quick_settings_hwkeys_off">HW keys off</string>
+    <string name="quick_settings_hwkeys_label">HW Keys</string>
+    <!-- NavBar QS Tile -->
+    <string name="quick_settings_navbar_title">Navigation Bar</string>
+    <string name="accessibility_quick_settings_navbar_changed_off">Navigation bar turned off</string>
+    <string name="accessibility_quick_settings_navbar_changed_on">Navigation bar turned on</string>
+    <!-- Alerting notification header label -->
+    <string name="notification_section_header_alerting">Alerting notifications</string>
+    <!-- FPS Info tile -->
+    <string name="quick_settings_fpsinfo_label">FPS Info</string>
+    <string name="accessibility_quick_settings_fpsinfo_off">FPS Info off</string>
+    <string name="accessibility_quick_settings_fpsinfo_on">FPS Info on</string>
+    <!-- AOD QS tile -->
+    <string name="quick_settings_aod_label">AOD</string>
+    <!-- USB Tethering tile -->
+    <string name="accessibility_quick_settings_usb_tether_off">USB tethering off</string>
+    <string name="accessibility_quick_settings_usb_tether_on">USB tethering on</string>
+    <string name="accessibility_quick_settings_usb_tether_changed_off">USB tethering turned off</string>
+    <string name="accessibility_quick_settings_usb_tether_changed_on">USB tethering turned on</string>
+    <string name="quick_settings_usb_tether_label">USB tethering</string>
+    <!-- Daily data usage -->
+    <string name="daily_data_usage_title">Today\'s usage</string>
+</resources>
