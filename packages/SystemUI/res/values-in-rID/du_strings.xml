@@ -18,69 +18,69 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Label for area where tiles can be added to the qs panel -->
-    <string name="drag_or_tap_to_add_tiles">Hold &amp; drag or tap to add tiles</string>
+    <string name="drag_or_tap_to_add_tiles">Tahan &amp; tarik atau ketuk untuk menambahkan ubin</string>
     <!-- Label for header of customize QS -->
-    <string name="drag_or_tap_to_rearrange_tiles">Hold &amp; drag to rearrange or tap to remove</string>
+    <string name="drag_or_tap_to_rearrange_tiles">Tahan &amp; tarik untuk mengatur kembali atau ketuk untuk menghapus</string>
     <!-- Screen record -->
-    <string name="screenrecord_dialog_title">Start recording?</string>
-    <string name="screenrecord_dialog_summary">While recording, Android system can capture any sensitive information that\'s visible on your screen or played on your device. This includes passwords, payment info, photos, messages, and audio.</string>
-    <string name="screenrecord_dialog_start">Start</string>
-    <string name="screenrecord_dialog_cancel">Cancel</string>
-    <string name="screenrecord_audio_recording_title">Audio source</string>
+    <string name="screenrecord_dialog_title">Mulai perekaman?</string>
+    <string name="screenrecord_dialog_summary">Saat merekam, sistem Android dapat menangkap informasi sensitif yang terlihat pada layar Anda atau yang sedang dijalankan pada perangkat Anda. Termasuk kata sandi, info pembayaran, foto-foto, pesan-pesan, dan audio.</string>
+    <string name="screenrecord_dialog_start">Mulai</string>
+    <string name="screenrecord_dialog_cancel">Batal</string>
+    <string name="screenrecord_audio_recording_title">Sumber suara</string>
     <string name="screenrecord_audio_recording_internal">Internal</string>
-    <string name="screenrecord_audio_recording_microphone">Microphone</string>
-    <string name="screenrecord_audio_recording_off">Disabled</string>
-    <string name="screenrecord_taps_title">Show touches on screen</string>
-    <string name="screenrecord_stopdot_title">Show stop dot</string>
-    <string name="screenrecord_video_bitrate_title">Video bitrate</string>
+    <string name="screenrecord_audio_recording_microphone">Mikrofon</string>
+    <string name="screenrecord_audio_recording_off">Dinonaktifkan</string>
+    <string name="screenrecord_taps_title">Tampilkan sentuhan pada layar</string>
+    <string name="screenrecord_stopdot_title">Tampilkan titik berhenti</string>
+    <string name="screenrecord_video_bitrate_title">Bitrate video</string>
     <!-- Power menu item for taking a screenshot [CHAR LIMIT=20]-->
-    <string name="global_action_screenshot_cust">Screenshot</string>
-    <string name="global_action_screenrecord">Screen record</string>
+    <string name="global_action_screenshot_cust">Tangkapan layar</string>
+    <string name="global_action_screenrecord">Perekam Layar</string>
     <!-- Advanced Reboot menu -->
-    <string name="global_action_restart_advanced">Advanced</string>
-    <string name="global_action_restart_recovery">Recovery</string>
+    <string name="global_action_restart_advanced">Lanjutan</string>
+    <string name="global_action_restart_recovery">Pemulihan</string>
     <string name="global_action_restart_bootloader">Bootloader</string>
-    <string name="global_action_restart_ui">SystemUI</string>
+    <string name="global_action_restart_ui">Ui Sistem</string>
     <!-- Tuner -->
-    <string name="statusbar_items_title">Statusbar icon</string>
+    <string name="statusbar_items_title">Ikon statusbar</string>
     <string name="quick_settings_vpn_title">VPN</string>
     <!-- Sync Tile -->
-    <string name="quick_settings_sync_label">Sync</string>
-    <string name="accessibility_quick_settings_sync_off">Sync off</string>
-    <string name="accessibility_quick_settings_sync_on">Sync on</string>
-    <string name="accessibility_quick_settings_sync_changed_off">Sync turned off</string>
-    <string name="accessibility_quick_settings_sync_changed_on">Sync turned on</string>
+    <string name="quick_settings_sync_label">Sinkronisasi</string>
+    <string name="accessibility_quick_settings_sync_off">Sinkronisasi mati</string>
+    <string name="accessibility_quick_settings_sync_on">Sinkronisasi aktif</string>
+    <string name="accessibility_quick_settings_sync_changed_off">Sinkronisasi dimatikan</string>
+    <string name="accessibility_quick_settings_sync_changed_on">Sinkronisasi diaktifkan</string>
     <!-- Ambient display QS tile -->
-    <string name="quick_settings_ambient_display_label">Ambient display</string>
-    <string name="accessibility_quick_settings_ambient_display_off">Ambient display off.</string>
-    <string name="accessibility_quick_settings_ambient_display_on">Ambient display on.</string>
-    <string name="accessibility_quick_settings_ambient_display_changed_off">Ambient display turned off.</string>
-    <string name="accessibility_quick_settings_ambient_display_changed_on">Ambient display turned on.</string>
+    <string name="quick_settings_ambient_display_label">Tampilan ambien</string>
+    <string name="accessibility_quick_settings_ambient_display_off">Tampilan ambient mati.</string>
+    <string name="accessibility_quick_settings_ambient_display_on">Tampilan ambien hidup.</string>
+    <string name="accessibility_quick_settings_ambient_display_changed_off">Tampilan ambient dimatikan.</string>
+    <string name="accessibility_quick_settings_ambient_display_changed_on">Tampilan ambient diaktifkan.</string>
     <!-- Sound QS Tile -->
-    <string name="quick_settings_sound_label">Sound</string>
-    <string name="quick_settings_sound_ring">Ring</string>
-    <string name="quick_settings_sound_vibrate">Vibrate</string>
-    <string name="quick_settings_sound_dnd">Do not disturb</string>
+    <string name="quick_settings_sound_label">Suara</string>
+    <string name="quick_settings_sound_ring">Dering</string>
+    <string name="quick_settings_sound_vibrate">Bergetar</string>
+    <string name="quick_settings_sound_dnd">Jangan ganggu</string>
     <!-- Reboot/Recovery QS Tile -->
-    <string name="quick_settings_reboot_label">Reboot</string>
-    <string name="quick_settings_reboot_recovery_label">Recovery</string>
-    <string name="quick_settings_poweroff_label">Power off</string>
+    <string name="quick_settings_reboot_label">Mulai ulang</string>
+    <string name="quick_settings_reboot_recovery_label">Pemulihan</string>
+    <string name="quick_settings_poweroff_label">Matikan daya</string>
     <!-- Heads Up QS Tile -->
-    <string name="quick_settings_heads_up_label">Heads up</string>
-    <string name="accessibility_quick_settings_heads_up_off">Heads up off.</string>
-    <string name="accessibility_quick_settings_heads_up_on">Heads up on.</string>
-    <string name="accessibility_quick_settings_heads_up_changed_off">Heads up turned off.</string>
-    <string name="accessibility_quick_settings_heads_up_changed_on">Heads up turned on.</string>
+    <string name="quick_settings_heads_up_label">Notifikasi Mengambang</string>
+    <string name="accessibility_quick_settings_heads_up_off">Notifikasi mengambang mati.</string>
+    <string name="accessibility_quick_settings_heads_up_on">Notifikasi mengambang hidup.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_off">Notifikasi mengambang dinonaktifkan.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_on">Notifikasi mengambang diaktifkan.</string>
     <!-- Screenshot QS tile -->
-    <string name="quick_settings_screenshot_label">Screenshot</string>
-    <string name="quick_settings_region_screenshot_label">Partial screenshot</string>
+    <string name="quick_settings_screenshot_label">Tangkapan layar</string>
+    <string name="quick_settings_region_screenshot_label">Tangkapan layar sebagian</string>
     <!-- Advance location quick setting tile -->
     <string name="quick_settings_secondary_location_off"></string>
-    <string name="quick_settings_location_secondary_battery_saving">Battery Saving</string>
-    <string name="accessibility_quick_settings_location_battery_saving">Location reporting: battery saving mode.</string>
-    <string name="quick_settings_location_secondary_gps_only">Sensors Only</string>
+    <string name="quick_settings_location_secondary_battery_saving">Penghemat Baterai</string>
+    <string name="accessibility_quick_settings_location_battery_saving">Pelaporan Lokasi: mode hemat baterai.</string>
+    <string name="quick_settings_location_secondary_gps_only">Sensor saja</string>
     <string name="accessibility_quick_settings_location_gps_only">Pelaporan lokasi: hanya sensor.</string>
-    <string name="quick_settings_location_secondary_high_accuracy">High Accuracy</string>
+    <string name="quick_settings_location_secondary_high_accuracy">Akurasi Tinggi</string>
     <string name="accessibility_quick_settings_location_high_accuracy">Location reporting: high accuracy mode.</string>
     <!-- accessibility label for button to open running apps prefscreen [CHAR LIMIT=NONE] -->
     <string name="accessibility_quick_settings_running_services">Open Running Services screen.</string>
@@ -148,26 +148,26 @@
     <string name="screen_pinning_description_custom">This keeps it in view until you unpin. Touch &amp; hold Back to unpin.</string>
     <string name="screen_pinning_description_recents_invisible_custom">This keeps it in view until you unpin. Touch &amp; hold Back to unpin.</string>
     <string name="screen_pinning_description_accessible_custom">This keeps it in view until you unpin. Touch &amp; hold Back to unpin.</string>
-    <string name="screen_pinning_description_recents_invisible_accessible_custom">This keeps it in view until you unpin. Touch &amp; hold Back to unpin.</string>
-    <string name="screen_pinning_toast_custom">To unpin this screen, touch &amp; hold Back button</string>
-    <string name="screen_pinning_toast_recents_invisible_custom">To unpin this screen, touch &amp; hold Back button</string>
+    <string name="screen_pinning_description_recents_invisible_accessible_custom">Ini membuatnya tetap terlihat sampai Anda melepaskan pin. sentuh &amp; tahan Kembali untuk melepaskan sematan.</string>
+    <string name="screen_pinning_toast_custom">Untuk melepas sematan layar ini, sentuh &amp; tahan tombol Kembali</string>
+    <string name="screen_pinning_toast_recents_invisible_custom">Untuk melepas sematan layar ini, sentuh &amp; tahan tombol Kembali</string>
     <!-- Long swipe gesture actions -->
-    <string name="app_picker_dialog_title">Select an app</string>
-    <string name="recents_app_killed">App killed</string>
-    <string name="nope_cant_kill">Launcher cannot be killed</string>
+    <string name="app_picker_dialog_title">Pilih satu aplikasi</string>
+    <string name="recents_app_killed">Aplikasi dimatikan</string>
+    <string name="nope_cant_kill">Peluncur tidak dapat dihentikan</string>
     <!-- ADB over Network tile -->
-    <string name="quick_settings_adb_network">ADB over Network</string>
-    <string name="quick_settings_network_adb_enabled_label">ADB over Network</string>
-    <string name="quick_settings_network_adb_disabled_label">ADB over Network</string>
-    <string name="adb_network_forced_tcp_warn">ADB network forced enabled on port: <xliff:g id="port">%1$s</xliff:g></string>
+    <string name="quick_settings_adb_network">ADB melalui Jaringan</string>
+    <string name="quick_settings_network_adb_enabled_label">ADB melalui Jaringan</string>
+    <string name="quick_settings_network_adb_disabled_label">ADB melalui Jaringan</string>
+    <string name="adb_network_forced_tcp_warn">Jaringan ADB diaktifkan paksa pada port <xliff:g id="port">%1$s</xliff:g></string>
     <!-- HW Keys Tile -->
-    <string name="accessibility_quick_settings_hwkeys_on">HW keys on</string>
-    <string name="accessibility_quick_settings_hwkeys_off">HW keys off</string>
-    <string name="quick_settings_hwkeys_label">HW Keys</string>
+    <string name="accessibility_quick_settings_hwkeys_on">Tombol fisik aktif</string>
+    <string name="accessibility_quick_settings_hwkeys_off">Tombol Fisik nonaktif</string>
+    <string name="quick_settings_hwkeys_label">Tombol Fisik</string>
     <!-- NavBar QS Tile -->
-    <string name="quick_settings_navbar_title">Navigation Bar</string>
-    <string name="accessibility_quick_settings_navbar_changed_off">Navigation bar turned off</string>
-    <string name="accessibility_quick_settings_navbar_changed_on">Navigation bar turned on</string>
+    <string name="quick_settings_navbar_title">Bilah Navigasi</string>
+    <string name="accessibility_quick_settings_navbar_changed_off">Bilah navigasi dinonaktifkan</string>
+    <string name="accessibility_quick_settings_navbar_changed_on">Bilah navigasi diaktifkan</string>
     <!-- Alerting notification header label -->
     <string name="notification_section_header_alerting">Alerting notifications</string>
     <!-- FPS Info tile -->
