@@ -95,8 +95,8 @@
     <string name="heads_up_snooze_message"><xliff:g id="string">%s</xliff:g> - As notificações flutuantes serão silenciadas por <xliff:g id="number">%d</xliff:g> minutos.</string>
     <!-- Kill button in notification guts -->
     <string name="force_stop_dlg_title">Forçar interrupção?</string>
-    <string name="force_stop_dlg_text">Se você forçar a parada de um app, ele pode apresentar mau funcionamento.</string>
-    <string name="dlg_ok">\@android:string/ok</string>
+    <string name="force_stop_dlg_text">If you force stop an app, it may misbehave.</string>
+    <string name="dlg_ok">@android:string/ok</string>
     <string name="dlg_cancel">\@android:string/cancelar</string>
     <string name="guts_force_close_app">Fechar Aplicativo</string>
     <!-- Lockscreen Tuner -->
@@ -110,7 +110,7 @@
     <string name="qs_data_switch_changed_2">Usando SIM 2 para dados móveis</string>
     <!-- Navbar -->
     <string name="systemui_tuner_navbar_title">Layout</string>
-    <string name="navigation_bar_format_title">Formato Navbar</string>
+    <string name="navigation_bar_format_title">Navbar format</string>
     <string name="navigation_bar_accessibility_dpad_left">Cursor left</string>
     <string name="navigation_bar_accessibility_dpad_right">Cursor right</string>
     <!-- Theme tile -->
@@ -152,7 +152,7 @@
     <string name="screen_pinning_toast_custom">Para desafixar esta tela, toque &amp; segure o botão Voltar</string>
     <string name="screen_pinning_toast_recents_invisible_custom">Para desafixar esta tela, toque &amp; segure o botão Voltar</string>
     <!-- Long swipe gesture actions -->
-    <string name="app_picker_dialog_title">Selecione um app</string>
+    <string name="app_picker_dialog_title">Select an app</string>
     <string name="recents_app_killed">Aplicativo encerrado</string>
     <string name="nope_cant_kill">Lançador não pode ser encerrado</string>
     <!-- ADB over Network tile -->
